@@ -508,9 +508,11 @@ button.btn-primary.register{
 
   
 
-  .text-for-button{
+  .text-for-button-two{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    line-height: 10px;
     justify-content: center;
   }
 
@@ -877,7 +879,9 @@ button.btn-primary.register{
 
     .card-padding{
       display: flex;
-       justify-content: center;   
+       justify-content: center;  
+       border-top-right-radius: 16px;
+       border-top-left-radius: 16px; 
       }
 
     .partner-card{
@@ -911,13 +915,13 @@ button.btn-primary.register{
         height: 24px;
         border-radius: 100px;
         background-color: #F2F4F7;
-        padding: 2px 5px;
+        padding: 0 5px;
     }
     button.partner{
         width: 352px;
         height: 32px;
         border-radius: 8px;
-        padding: 6px 12px;
+        padding: 2px 12px;
         gap: 4px;
         color: #FF5722;
         border: 1px solid #FF5722;
@@ -934,7 +938,7 @@ button.btn-primary.register{
         width: 60px;
         height: 20px;
         border-radius: 100px;
-        padding: 2px 5px;
+        padding: 0px 5px;
         gap: 3px;
         background-color: #00B74A;
         color: #FFFFFF;
@@ -972,6 +976,7 @@ button.btn-primary.register{
         border: none;
         margin-top: 60px;
         margin-bottom: 40px;
+        border-radius: 8px;
     }
 
     .show-more button:hover{
@@ -1079,7 +1084,7 @@ button.btn-primary.register{
        .tag-online-1-day-ago{
         width: 140px;
         height: 20px;
-        padding: 2px 5px;
+        padding: 0px 5px;
         gap: 3px;
         background-color: #F5F5F5;
         border-radius: 50px;
@@ -1133,7 +1138,7 @@ button.btn-primary.register{
         height: 32px;
         border-radius: 8px;
         border: 1px solid #FF5722;
-        padding: 6px 12px;
+        padding: 1px 12px;
         background-color: #FFFFFF;
         color: #FF5722;
         text-align: center;
@@ -1150,30 +1155,32 @@ button.btn-primary.register{
         background-color: #F2F4F7;
         text-align: left;
         border-radius: 100px;
+        padding: 0px 5px;
        }
        .tag-2-detorit{
         width: 111px;
         height: 24px;
         border-radius: 100px;
-        padding: 2px 5px;
+        padding: 1px 5px;
         background-color: #F2F4F7;
        }
        .tag-3-small-phd{
         width: 57px;
         height: 24px;
         border-radius: 100px;
-        padding: 2px 5px;
+        padding: 5px 5px;
        }
        .tag-1-buddhist{
         width: 100px;
         height: 24px;
-        padding: 2px 5px;
+        padding: 1px 5px;
         background-color: #F2F4F7;
+        border-radius: 100px;
        }
        .tag-2-london{
         width: 110px;
         height: 24px;
-        padding: 2px 5px;
+        padding: 1px 5px;
         background-color: #F2F4F7;
         border-radius: 100px;
        }
@@ -1964,6 +1971,8 @@ align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    line-height: 3px;
+    text-align: center;
   }
   
   
@@ -1976,8 +1985,8 @@ align-items: center;
     padding-top: 12px;
     font-family: 'Google Sans';
     gap: 2px;
-    line-height: 0.00001;
-
+    margin-bottom: 5px;
+    gap: 0px;
   }
   
   
@@ -1990,7 +1999,6 @@ align-items: center;
     padding-right: 7px;
     padding-top: 0px;
     font-family: 'Google Sans';
-    line-height: 0.00001;
     text-wrap: nowrap;
 
   }
